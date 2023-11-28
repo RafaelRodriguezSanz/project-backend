@@ -1,4 +1,4 @@
-FROM openjdk:11
+FROM openjdk:8
 WORKDIR /app
 COPY target/backend-*.*.jar app.jar
 EXPOSE 8080
