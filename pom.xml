@@ -6,6 +6,12 @@
     <groupId>uy.edu.ucu</groupId>
     <artifactId>backend</artifactId>
     <version>${maven.version.number}</version>
+    <developers>
+        <developer>
+            <name>Rafael Rodriguez</name>
+            <email>rafaelrodriguezsanz@gmail.com</email>
+        </developer>
+    </developers>
 
     <properties>
         <maven.version.number>1.0-SNAPSHOT</maven.version.number>
