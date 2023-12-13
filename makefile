@@ -4,3 +4,6 @@ ifeq ($(strip $(VERSION)),)
 	@exit 1
 endif
 	mvn clean install package -Dmaven.version.number=$(VERSION)
+
+clean:
+	mvn clean
