@@ -1,0 +1,14 @@
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+                           http://www.springframework.org/schema/beans/spring-beans.xsd">
+    <bean id="agendaDiscountServiceBuilderImpl"  class="uy.edu.ucu.service.AgendaDiscountService$AgendaDiscountServiceBuilderImpl"  />
+    <bean id="agendaDiscountServiceBuilder"      class="uy.edu.ucu.service.AgendaDiscountService$AgendaDiscountServiceBuilder"     abstract="true"/>
+    <bean id="agendaDiscountRepositoryBuilderImpl"  class="uy.edu.ucu.repository.AgendaDiscountRepository$AgendaDiscountRepositoryBuilderImpl"  />
+    <bean id="agendaDiscountRepositoryBuilder"      class="uy.edu.ucu.repository.AgendaDiscountRepository$AgendaDiscountRepositoryBuilder"     abstract="true"/>
+    <bean id="repositoryBuilder"                    class="uy.edu.ucu.repository.Repository$RepositoryBuilder"                                 abstract="true"/>
+    <bean id="agendaDiscountDAOBuilderImpl"         class="uy.edu.ucu.model.DAO.AgendaDiscountDAO$AgendaDiscountDAOBuilderImpl"/>
+    <bean id="agendaDiscountDAOBuilder"             class="uy.edu.ucu.model.DAO.AgendaDiscountDAO$AgendaDiscountDAOBuilder"                    abstract="true"/>
+    <bean id="daoBuilder" class="uy.edu.ucu.model.DAO.DAO$DAOBuilder" abstract="true"/>
+    <bean id="dao" class="uy.edu.ucu.model.DAO.DAO" abstract="true"/>
+</beans>
